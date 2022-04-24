@@ -1,0 +1,21 @@
+{
+  "name": "article",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build:release": "asb",
+    "build": "asb",
+    "build:debug": "asb --target debug",
+    "test": "asp --nologo",
+    "deploy": "near dev-deploy build/release/article.wasm",
+    "dev": "yarn build:release && yarn deploy"
+
+  },
+  "dependencies": {
+    "near-sdk-as": "3.1.0"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
