@@ -47,6 +47,7 @@ we create new Article
 
 ## Find Article
 if you know id number you can find Article
+
 **Example call:**
 near view $CONTRACT getArticle '{"id":"ID"}'
 
