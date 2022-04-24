@@ -1,7 +1,7 @@
 Near-Article-Ptoject
 ==================
 
-This app was initialized with [create-near-app]
+The aim of my project was to create smart contracts for article writers and to keep them on the blockchain forever. I aimed that those who like the articles donate to the author. I hope it gave a good idea to the programmers as my project is open to development.
 
 
 Quick Start
